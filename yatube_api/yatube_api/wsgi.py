@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'yatube_api.settings')
 
 application = get_wsgi_application()
+<<<<<<< HEAD
+=======
+
+>>>>>>> d048caee5710575b414ec6420ab257c1e663aeda

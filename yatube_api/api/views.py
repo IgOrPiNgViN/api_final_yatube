@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from rest_framework import filters, permissions, viewsets, mixins
 from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
@@ -57,3 +58,6 @@ class FollowViewSet(
     def get_queryset(self):
         queryset = self.request.user.follower.all()
         return queryset
+=======
+# TODO:  Напишите свой вариант
+>>>>>>> d048caee5710575b414ec6420ab257c1e663aeda

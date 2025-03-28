@@ -94,6 +94,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
+<<<<<<< HEAD
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
@@ -105,3 +106,9 @@ SIMPLE_JWT = {
 }
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+=======
+}
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+>>>>>>> d048caee5710575b414ec6420ab257c1e663aeda
