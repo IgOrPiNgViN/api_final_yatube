@@ -1,5 +1,4 @@
 from pathlib import Path
-
 from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -54,7 +53,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'yatube_api.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -94,7 +92,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
-<<<<<<< HEAD
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
@@ -106,9 +103,3 @@ SIMPLE_JWT = {
 }
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
-}
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
->>>>>>> d048caee5710575b414ec6420ab257c1e663aeda
