@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -52,6 +53,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'yatube_api.wsgi.application'
+
 
 DATABASES = {
     'default': {

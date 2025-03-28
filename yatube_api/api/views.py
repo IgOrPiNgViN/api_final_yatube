@@ -57,4 +57,3 @@ class FollowViewSet(
     def get_queryset(self):
         queryset = self.request.user.follower.all()
         return queryset
-

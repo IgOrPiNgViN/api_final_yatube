@@ -5,6 +5,7 @@ from posts.models import Comment, Post, Follow, User, Group
 
 
 class GroupSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Group
         fields = '__all__'
@@ -19,6 +20,7 @@ class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = '__all__'
+        read_only_fields = ('following',)
 
 
 class CommentSerializer(serializers.ModelSerializer):
